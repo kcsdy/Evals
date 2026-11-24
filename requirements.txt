@@ -6,3 +6,6 @@ langgraph
 langchain-core
 openai
 python-dotenv
+langchain-mcp-adapters
+mcp
+nest_asyncio
