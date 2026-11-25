@@ -1,9 +1,9 @@
 name: Evals
 
 on:
-  push:
-    branches:
-      - "**"
+  workflow_dispatch:
+    
+
 
 jobs:
   task-completion:
