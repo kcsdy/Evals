@@ -32,3 +32,6 @@ jobs:
 
       - name: Run Tracing Components Test
         run: python evals/test_TracingComponentsTest.py
+
+      - name: Run Custom Metric Eval
+        run: python evals/test_customMetricEvals.py  
