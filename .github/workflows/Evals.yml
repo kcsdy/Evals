@@ -1,4 +1,4 @@
-name: Task Completion
+name: Evals
 
 on:
   push:
@@ -29,3 +29,6 @@ jobs:
 
       - name: Run Task Completion eval
         run: python evals/test_TaskCompletion.py
+
+      - name: Run Tracing Components Test
+        run: python evals/test_TrackingComponentsTest.py
