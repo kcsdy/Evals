@@ -31,4 +31,4 @@ jobs:
         run: python evals/test_TaskCompletion.py
 
       - name: Run Tracing Components Test
-        run: python evals/test_TrackingComponentsTest.py
+        run: python evals/test_TracingComponentsTest.py
